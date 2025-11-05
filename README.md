@@ -12,7 +12,7 @@ SIRIUS (_<ins>S</ins>ystematische <ins>I</ins>dentifikation <ins>R</ins>edundant
 **Overview of the SIRIUS workflow.** **Step (1)** The input to SIRIUS is a protein sequence of interest _P_ and the desired number _n_ of synonymous DNA sequences to be designed; **Step (2)** SIRIUS solves an integer linear program with the objective function shown here, and millions of variables and constraints; below the objective function we illustrate the codon choices for each amino acid in the example peptide _P_ from Step 1; **Step (3)** SIRIUS produces of _n_ synonymous DNA sequences that encode _P_ with the fewest and shortest common subsequences; the light blue highlights indicate homologous subsequences between any pair.
 
 # Documentation
-You may find the documentation for SIRIUS at its [GitHub Wiki](https://github.com/AmirUCR/SIRIUS/wiki).
+You may find the documentation for SIRIUS at its [GitHub Wiki](https://github.com/ucrbioinfo/SIRIUS/wiki).
 
 # Support
 If you run into any issues or have suggestions for SIRIUS, please report them on our GitHub Issues tracker. It's the fastest way to get support and helps us improve SIRIUS for everyone. You may also email the authors at their provided e-mail addresses on the publication directly.
