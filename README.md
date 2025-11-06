@@ -7,7 +7,7 @@ SIRIUS (_<ins>S</ins>ystematische <ins>I</ins>dentifikation <ins>R</ins>edundant
 - Effectively synthesize sequences with maximal, optimal divergence
 - Written in pure C++
   
-<img width="1310" height="362" alt="image" src="https://github.com/user-attachments/assets/f06cae9f-d7f9-44a0-85d5-5097706e0590" />
+<img width="1526" height="426" alt="image" src="https://github.com/user-attachments/assets/d3990ca1-e2fb-48d9-91dd-8e274bb73d06" />
 
 **Overview of the SIRIUS workflow.** **Step (1)** The input to SIRIUS is a protein sequence of interest _P_ and the desired number _n_ of synonymous DNA sequences to be designed; **Step (2)** SIRIUS solves an integer linear program with the objective function shown here, and millions of variables and constraints; below the objective function we illustrate the codon choices for each amino acid in the example peptide _P_ from Step 1; **Step (3)** SIRIUS produces of _n_ synonymous DNA sequences that encode _P_ with the fewest and shortest common subsequences; the light blue highlights indicate homologous subsequences between any pair.
 
